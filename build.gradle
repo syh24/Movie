@@ -27,6 +27,7 @@ dependencies {
 	implementation 'com.querydsl:querydsl-jpa'
 	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.6.3'
 
+	implementation 'org.apache.httpcomponents:httpclient:4.5'
 	runtimeOnly 'com.h2database:h2'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
