@@ -15,11 +15,12 @@
 * 평점순으로 정렬
 
 
-검색
+홈 화면
 
 ![2021-03-18 (3)](https://user-images.githubusercontent.com/64251594/111581142-15ab7a80-87fc-11eb-910d-c9e640e15c9e.png)
 
 
-검색 
+검색 결과
 
-![2021-03-18 (2)](https://user-images.githubusercontent.com/64251594/111581148-180dd480-87fc-11eb-84ac-4d0c4205de34.png)
+![2021-03-18 (4)](https://user-images.githubusercontent.com/64251594/111583875-691fc780-8800-11eb-86e0-e468172a7a7e.png)
+
