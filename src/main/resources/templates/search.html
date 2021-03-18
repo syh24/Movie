@@ -6,10 +6,19 @@
           th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <form action="/movies" method="get">
+        <div>
+            <label>영화 제목</label>
+            <input type="text" name="query" class="form-control" placeholder="영화를 검색하세요">
+            <button class="ui-widget-icon-block btn btn-primary btn-lg btn-group-vertical" type="submit">search</button>
+        </div>
+    </form>
+</div>
 <div class="container" style="max-width: 800px">
     <div class="py-5 text-center">
         <h2>
-            <a href="/">검색 결과</a>
+            <a href="/">검색결과</a>
         </h2>
     </div>
     <hr class="my-4">

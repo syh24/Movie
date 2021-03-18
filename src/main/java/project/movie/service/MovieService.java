@@ -1,6 +1,8 @@
 package project.movie.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -13,6 +15,7 @@ import project.movie.controller.dto.RequestMovieDto;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 @RequiredArgsConstructor
 @Service
 public class MovieService {
@@ -20,6 +23,7 @@ public class MovieService {
     private final RestTemplate restTemplate;
 
     public List<RequestMovie> search(String query) {
+        log.info("search 메소드 실행");
         HttpHeaders headers = new MovieApiClient().getHeaders();
         List<RequestMovieDto> movies = null;
         String url = "https://openapi.naver.com/v1/search/movie.json" + "?query=" + query;
