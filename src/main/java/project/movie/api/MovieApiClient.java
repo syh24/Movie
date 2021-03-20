@@ -6,8 +6,8 @@ import org.springframework.http.HttpHeaders;
 @Configuration
 public class MovieApiClient {
 
-    private String clientId = "[ Client-Id ]";
-    private String clientSecret = "[ Client-Secret ]";
+    private String clientId = "kmJcoKSSgomqKQx5z6zJ";
+    private String clientSecret = "D1ouh5MxCy";
 
     public HttpHeaders getHeaders() {
         HttpHeaders headers = new HttpHeaders();
