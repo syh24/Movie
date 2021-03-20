@@ -4,3 +4,9 @@ files:
   - source:  /
     destination: /home/ec2-user/apps/travis/build/
     overwrite: yes
+
+hooks:
+  AfterInstall:
+    - location: execute-deploy.sh
+      timeout: 180
+
