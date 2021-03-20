@@ -17,9 +17,9 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r movie-webservice
+  - zip -r syh-movie
   - mkdir -p deploy
-  - mv movie-webservice.zip deploy/movie-webservice.zip
+  - mv syh-movie.zip deploy/syh-movie.zip
 
 deploy:
   - provider: s3
