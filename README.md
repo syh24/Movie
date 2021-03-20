@@ -14,6 +14,16 @@
 * 영화 검색 기능
 * 평점순으로 정렬
 
+## 🔖 Build & Start
+```
+(mac)    ./gradlew build
+(window) ./gradlew.bat build
+
+cd build/libs
+java -jar movie-0.0.1-SNAPSHOT.jar
+```
+
+
 
 홈 화면
 
