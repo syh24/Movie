@@ -9,6 +9,10 @@
 * Spring MVC
 * Thymeleaf
 * RestApi
+* Travis CI
+* AWS S3
+* AWS CodeDeploy
+* AWS EC2
 
 ### 기능
 * 영화 검색 기능
