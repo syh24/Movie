@@ -15,8 +15,6 @@
 * 평점순으로 정렬
 
 ## 🔖 Build & Start
-## Back
-
 ```
 (mac)    ./gradlew build
 (window) ./gradlew.bat build
