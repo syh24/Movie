@@ -47,7 +47,7 @@ deploy:
     wait-until-deployed: true
     on:
       repo: syh24/Movie
-      branch: maste
+      branch: master
 
 notifications:
   email:
