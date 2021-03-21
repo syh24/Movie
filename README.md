@@ -9,7 +9,7 @@
 ### 사용 기술
 * Spring MVC
 * Thymeleaf
-* RestApi
+* RestAPI
 * Travis CI
 * AWS S3
 * AWS CodeDeploy
