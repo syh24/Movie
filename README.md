@@ -1,4 +1,5 @@
 # :octocat: 네이버 OpneApi를 이용한 영화 검색 서비스
+### http://syhmovie.ml
 
 ### 개발 스펙
 * Java 11
@@ -8,12 +9,15 @@
 ### 사용 기술
 * Spring MVC
 * Thymeleaf
-* RestApi
+* RestAPI
+* Travis CI
+* AWS S3
+* AWS CodeDeploy
+* AWS EC2
 
 ### 기능
 * 영화 검색 기능
 * 평점순으로 정렬
-* AWS로 배포
 
 ## 🔖 Build & Start
 ```
